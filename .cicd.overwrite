@@ -1,0 +1,20 @@
+---
+
+# Generic
+generic:
+  role: ansible-role-lens
+  role_short: lens
+  role_description: |
+    Installs Lens desktop<br>
+    https://k8slens.dev<br> 
+  collections: []
+
+# Molecule
+molecule:
+  requirements:
+    roles_extra:
+      - deitkrachten.gnome_desktop
+  converge:
+    # pre: converge-pre.yml
+    roles:
+      - deitkrachten.gnome_desktop
