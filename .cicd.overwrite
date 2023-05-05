@@ -9,6 +9,12 @@ generic:
     https://k8slens.dev<br> 
   collections: []
 
+# Supported platforms
+platforms:
+  centos7:
+    ci: false
+    supported: false
+
 # Molecule
 molecule:
   requirements:
