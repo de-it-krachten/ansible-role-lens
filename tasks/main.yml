@@ -1,0 +1,41 @@
+---
+
+- name: Download lens appimage
+  ansible.builtin.get_url:
+    url: "{{ lens_url }}"
+    dest: "{{ lens_executable }}"
+    owner: root
+    group: root
+    mode: "0755"
+  become: yes
+
+- name: Create lens desktop
+  ansible.builtin.template:
+    src: lens.desktop.j2
+    dest: /usr/share/applications/lens.desktop
+    mode: "0644"
+  become: yes
+
+- name: Copy lens icon
+  ansible.builtin.copy:
+    src: lens.svg
+    dest: /usr/share/icons/lens.svg
+    owner: root
+    group: root
+    mode: "0644"
+  become: yes
+
+- name: Get lens association
+  ansible.builtin.command: >-
+    xdg-settings get default-url-scheme-handler lens
+  changed_when: no
+  check_mode: no
+  become: yes
+  register: __lens_association
+
+- name: Associate lens
+  ansible.builtin.command: >-
+    xdg-settings set default-url-scheme-handler lens lens.desktop
+  changed_when: true
+  become: yes
+  when: __lens_association.stdout != "lens.desktop"

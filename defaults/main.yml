@@ -1,0 +1,7 @@
+---
+
+# Lens desktop executable
+lens_executable: /usr/local/bin/lens
+
+# Lens download url
+lens_url: https://api.k8slens.dev/binaries/latest.x86_64.AppImage
