@@ -49,6 +49,10 @@ roles:
     src: https://github.com/de-it-krachten/ansible-role-unbound.git
     version: main
     scm: git
+  - name: deitkrachten.package
+    src: https://github.com/de-it-krachten/ansible-role-package.git
+    version: main
+    scm: git
   - name: deitkrachten.gnome_desktop
     src: https://github.com/de-it-krachten/ansible-role-gnome_desktop.git
     version: main
