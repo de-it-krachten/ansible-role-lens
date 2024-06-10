@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/de-it-krachten/ansible-role-lens/compare/v1.1.0...v1.2.0) (2024-06-10)
+
+
+### Features
+
+* Add support for Ubuntu 24.04 LTS + Fedora 40 ([12b33e2](https://github.com/de-it-krachten/ansible-role-lens/commit/12b33e2ac1b3fe3cf5c5095344253c3c805d6f9e))
+
 # [1.1.0](https://github.com/de-it-krachten/ansible-role-lens/compare/v1.0.0...v1.1.0) (2023-09-09)
 
 
