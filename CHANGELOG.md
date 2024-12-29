@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/de-it-krachten/ansible-role-lens/compare/v1.2.0...v1.3.0) (2024-12-29)
+
+
+### Features
+
+* Update supported platforms & CI ([49c98d6](https://github.com/de-it-krachten/ansible-role-lens/commit/49c98d6a42fdd9f95127ff68c069ec0d9e367357))
+
 # [1.2.0](https://github.com/de-it-krachten/ansible-role-lens/compare/v1.1.0...v1.2.0) (2024-06-10)
 
 
