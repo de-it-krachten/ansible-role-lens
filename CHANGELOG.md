@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/de-it-krachten/ansible-role-lens/compare/v1.4.0...v1.5.0) (2026-11-07)
+
+
+### Features
+
+* Added support for Fedora 43 ([6024426](https://github.com/de-it-krachten/ansible-role-lens/commit/60244260674b9b9ec93f3db0589e2cb150f4fc34))
+* Added support for Fedora 44 ([40246c0](https://github.com/de-it-krachten/ansible-role-lens/commit/40246c02bbc39a5b49388d40204c56804fe13bd0))
+* Added support for Ubuntu 26.04 LTS ([60f75d2](https://github.com/de-it-krachten/ansible-role-lens/commit/60f75d2b9b9d3356a94c1466b9a8ae6953c74896))
+* Drop support for Debian 11 (Bullseye) ([859c3f4](https://github.com/de-it-krachten/ansible-role-lens/commit/859c3f4685245577f28dce4461aff7ca2875e4a5))
+* Drop support for Fedora 41 ([9187d7f](https://github.com/de-it-krachten/ansible-role-lens/commit/9187d7fb186c676d6f766799d1356c76b71ced30))
+* Drop support for Fedora 42 ([45e13ab](https://github.com/de-it-krachten/ansible-role-lens/commit/45e13ab226c84bfa97c350d4024681ef108c990c))
+
 # [1.4.0](https://github.com/de-it-krachten/ansible-role-lens/compare/v1.3.0...v1.4.0) (2025-08-06)
 
 
